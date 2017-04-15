@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+    $('#field_7q9j82').change(function(){ 
+        var sourceField = $('#field_7q9j82').val();
+        $('#field_9ib29').val(sourceField);
+        $('#field_9ib29').trigger({ type:'change', originalEvent:'custom' });
+    });
+});
+
+</script>
